@@ -32,7 +32,6 @@ If you want to contribute or modify the game, follow these steps:
 ```sh
 git clone https://github.com/kpeguero16/blackjack_nano.git
 cd blackjack_nano
-pip install -r requirements.txt
 ```
 Then, make changes and test your updates!
 
