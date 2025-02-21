@@ -1,0 +1,15 @@
+# Ignore Python build and distribution files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+build/
+dist/
+*.egg-info/
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore PyPI credentials
+.pypirc
