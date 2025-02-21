@@ -15,7 +15,6 @@ If you're running the project from the source code, clone the repository and ins
 ```sh
 git clone https://github.com/kpeguero16/blackjack_nano.git
 cd blackjack_nano
-pip install -r requirements.txt  # If your project has dependencies
 ```
 
 ## Running the Game
@@ -25,7 +24,7 @@ blackjack_nano
 ```
 Or if running from source:
 ```sh
-python blackjack.py
+python3 blackjack.py
 ```
 
 ## Development Setup
@@ -40,7 +39,7 @@ Then, make changes and test your updates!
 ## Updating the Package
 If you make changes and need to update the PyPI package:
 ```sh
-python setup.py sdist bdist_wheel
+python3 setup.py sdist bdist_wheel
 twine upload dist/*
 ```
 
